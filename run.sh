@@ -1,3 +1,3 @@
 #!/bin/bash
-python ./total.py
+python total.py
 exit 0
