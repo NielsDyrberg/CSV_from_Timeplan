@@ -11,11 +11,11 @@ a newer version might work, but i dont guarantee anything!
 
 After installing Python, open CMD or Terminal as admin
 and run:
-  pip install selenium
+  'pip install selenium'
+
 To install selenium package.
 
 and  Browser Driver
-
 Chrome:
   https://sites.google.com/a/chromium.org/chromedriver/
 Safari: (Not tested)
