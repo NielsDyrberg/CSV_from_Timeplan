@@ -1,6 +1,7 @@
 # CSV_from_Timeplan
 
 By Niels Dyrberg
+
 Using the script is under your own responsibility
 
 Automated CSV file download from Timeplan
