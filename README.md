@@ -1,6 +1,6 @@
 # CSV_from_Timeplan
 
-By Niels Dyrberg
+By Niels Dyrberg - 11-11/19
 
 Using the script is under your own responsibility
 
