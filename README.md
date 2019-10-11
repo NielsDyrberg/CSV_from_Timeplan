@@ -23,6 +23,6 @@ Safari: (Not tested)
 
 Place the driver a place where you know the full path, and the open total.py, to add the path, and fill out your username and password.
 
-If you are on a Windows you should now be able to run the script by double pressing on run.bat.
+If you are on a Windows you should now be able to run the script by double pressing on run.bat. For mac press run.sh (Mayby - Not tested)
 The browser will close automaticaly and you should now have a file called 'final.csv' which you want to upload too your Google Calendar.
 
