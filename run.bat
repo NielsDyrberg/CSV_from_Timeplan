@@ -1,2 +1,2 @@
-START /WAIT python ./total.py
+START /WAIT python ./main.py
 exit 0
