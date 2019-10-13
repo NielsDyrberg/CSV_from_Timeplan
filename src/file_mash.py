@@ -84,7 +84,7 @@ def make_file():
 
     now = datetime.datetime.now()
 
-    outfile = open("../final.csv", "w+")
+    outfile = open("../vagter.csv", "w+")
 
     tmpString = str('Subject, Start Date, Start Time, End Date, End Time\n')
     tmpString2 = ''
