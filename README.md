@@ -22,6 +22,7 @@ and run:
 Now go into login.json and fill-out your credentials for Timeplan
 If you are on a Mac you will have to change the PATH variable too the full path, something like "/Users/'your usesrname'/Documents/Timeplan/drivers"
 
-If you are on a Windows you should now be able to run the script by double pressing on run.bat. For mac press run.command.
-The browser will close automaticaly and you should now have a file called 'final.csv' this is the one you want to upload too your Google Calendar.
+If you are on a Windows you should now be able to run the script by double pressing on run.bat. 
+For mac press run.command.
+The browser will close automaticaly and you should now have a file called 'vagter.csv' this is the one you want to upload too your Google Calendar.
 
