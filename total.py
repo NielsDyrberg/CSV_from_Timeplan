@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# encoding=utf8
 
 #By Niels Dyrberg
 #Brug under eget ansvar!
@@ -14,6 +15,8 @@ from selenium.webdriver.common.by import By
 import time
 
 import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
 
 import os
 
@@ -24,7 +27,7 @@ username = ''
 #Dit password
 myPass = ''
 #Din browser driver - Skrift kun det ud mellem ''
-path = r'C:\...\chromedriver.exe'
+path = r'chromedriver'
 
 delay = 4 # seconds
 
@@ -160,7 +163,8 @@ now = datetime.datetime.now()
 
 outfile = open("final.csv", "w+")
 
-tmpString = str('Subject, Start Date, Start Time, End Time\n')
+tmpString = str('Subject, Start Date, Start Time, End Date, End Time\n')
+tmpString2 = ''
 
 for line in open("output4.txt", "r"):
     lineNum += 1
@@ -174,6 +178,15 @@ for line in open("output4.txt", "r"):
         tmpString += str('/')
         tmpString += str(now.year)
         tmpString += str(',')
+
+        tmpString2 = str(line[3])
+        tmpString2 += str(line[4])
+        tmpString2 += str('/')
+        tmpString2 += str(line[0])
+        tmpString2 += str(line[1])
+        tmpString2 += str('/')
+        tmpString2 += str(now.year)
+        tmpString2 += str(',')
         id += 1
 
     else:
@@ -183,6 +196,9 @@ for line in open("output4.txt", "r"):
         tmpString += str(line[3])
         tmpString += str(line[4])
         tmpString += str(',')
+        
+        tmpString += tmpString2
+
         tmpString += str(line[6])
         tmpString += str(line[7])
         tmpString += str(line[8])
