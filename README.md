@@ -26,3 +26,6 @@ If you are on a Windows you should now be able to run the script by double press
 For mac press run.command.
 The browser will close automaticaly and you should now have a file called 'vagter.csv' this is the one you want to upload too your Google Calendar.
 
+You can now upload the vagter.csv too your Google Calendar, which you can sync whit your phone.
+
+You can contact me on 'ncpd@live.dk' if you have any problems setting it up.
