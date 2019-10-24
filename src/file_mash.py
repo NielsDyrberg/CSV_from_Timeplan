@@ -1,5 +1,15 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import datetime
 import os
+import platform
+
+platform = platform.system()
+
+if platform == "Darwin":
+    reload(sys)
+    sys.setdefaultencoding('utf8')
 
 def delete_dub():
     lines_seen = set()  # holds lines already seen

@@ -11,7 +11,7 @@ def get_timeplan_credentials(platform):
     if platform == "Windows":
         x[2] = data[0]["win"]
     elif platform == "Darwin":
-        x[2] =  data[0]["win"]
+        x[2] =  data[0]["mac"]
     return x
 
 
